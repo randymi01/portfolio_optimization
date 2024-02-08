@@ -20,7 +20,7 @@ python main.py -s AAPL, MSFT, AMZN -o sharpe -p output.txt
 
 | Flag                   | Description                                                                                                                                                                                         | Required |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| `-s`\|`--stocks`       | Required argument, takes a comma separated list of stock tickers or the path to a newline separated txt file                                                                                        | True     |
+| `-s`\|`--stocks`       | Takes a comma separated list of stock tickers or the path to a newline separated txt file                                                                                        | True     |
 | `-d`                   | Starting date for returns series. By default Jan 1 2020                                                                                                                                             | False    |
 | `-e`                   | Ending date for returns series. By default today's date                                                                                                                                             | False    |
 | `-o`\|`--optimization` | Optimization method to use. Currently only supports [Sharpe Ratio](https://en.wikipedia.org/wiki/Sharpe_ratio) and Utility. Default Sharpe Ratio.                                                   | False    |
