@@ -1,0 +1,9 @@
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: -0.11515661117863446
+       x: [ 4.947e-01  3.974e-01  1.079e-01]
+     nit: 3
+     jac: [ 1.583e-02  1.590e-02  1.585e-02]
+    nfev: 12
+    njev: 3
