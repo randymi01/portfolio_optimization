@@ -19,7 +19,7 @@ python main.py -s AAPL, MSFT, AMZN -o sharpe -p output.txt
 ## CLI Options
 
 | Flag                   | Description                                                                                                                                                                                         | Required |
-|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
 | `-s`\|`--stocks`       | Required argument, takes a comma separated list of stock tickers or the path to a newline separated txt file                                                                                        | True     |
 | `-d`                   | Starting date for returns series. By default Jan 1 2020                                                                                                                                             | False    |
 | `-e`                   | Ending date for returns series. By default today's date                                                                                                                                             | False    |
